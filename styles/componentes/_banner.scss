@@ -1,0 +1,34 @@
+@import '../abstract/variaveis';
+
+.banner{
+    background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    .inner-banner{
+        padding: 3em;
+        background-color: $cor-terciaria;
+        opacity: 0.6;
+        border-radius: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: $tamanho-do-texto;
+            padding: 0 1em 0.4em 1em;
+            color: #191825;
+            font-family: $fonte-titulo
+            
+        }
+        h2{
+            font-size: 20px;
+            font-family: $fonte-titulo;
+            
+        }
+    }
+    
+    
+}

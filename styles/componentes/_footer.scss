@@ -1,0 +1,22 @@
+@import '../abstract/variaveis';
+
+
+@mixin bg-cores($cores...){
+    background: linear-gradient(to left, $cores);
+}
+
+
+
+footer{
+    text-align: center;
+    font-size: 32px;
+    color: $cor-preta;
+    padding: 1em;
+    margin-top: 1em;
+    border-top: 1px dashed $cor-preta;
+    @include bg-cores(#557153, #7D8F69, #A9AF7E, #E6E5A3);
+    i{
+        color: $cor-verde-h4;
+    }
+
+}

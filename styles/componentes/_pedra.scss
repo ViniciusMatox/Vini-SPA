@@ -1,0 +1,18 @@
+@import '../abstract/variaveis';
+
+.pedra-e-flor{
+    text-align: center;
+    padding: 2em;
+    font-size: 32px;
+    .imagem-pedra{
+        width: 100%;
+        height: auto;
+        padding-bottom: 1em;
+    }
+    .pedra-e-flor-texto{
+        width: 100%;
+        border-top: 5px double $cor-verde-h4;
+        padding-top: 1em;
+        border-width: 100%;
+    }   
+}
